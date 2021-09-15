@@ -6,7 +6,7 @@ import styles from './Breadcrumbs.module.scss';
 const Breadcrumbs: FC = () => {
   const pathArray = useBreadcrumbs();
 
-  if (pathArray.length) return null;
+  if (!pathArray.length) return null;
 
   return (
     <div className={styles.breadcrumbs}>
