@@ -14,11 +14,11 @@
   "keywords": [
     "react",
     "webpack",
-    "typescript",
-    "boilerplate"
+    "typescript"
   ],
   "author": "Iryna Arkhypchenko",
   "license": "ISC",
+  "home": "https://github.com/IryArkhy/corti-assignment#readme",
   "dependencies": {
     "axios": "^0.21.4",
     "clsx": "^1.1.1",
