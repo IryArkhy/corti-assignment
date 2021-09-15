@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "composite": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "stripInternal": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node"],
+    "allowJs": true,
+    "module": "ES6",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strictNullChecks": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*", "src/**/*.json"],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts", "**/*.test.tsx"]
+}

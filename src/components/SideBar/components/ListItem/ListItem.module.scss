@@ -1,0 +1,46 @@
+@import '../../../../stylesheets/vars';
+
+.itemBase {
+  align-items: center;
+  background-color: transparent;
+  border: hidden;
+  display: flex;
+  margin-bottom: 0.5rem;
+  transform: translateX(0);
+  transition: transform 80ms ease-in-out;
+  width: 100%;
+
+  svg {
+    fill: $primary-200;
+    height: auto;
+    margin-right: 0.5rem;
+    width: 18px;
+  }
+
+  .fileIcon {
+    fill: $primary-500;
+  }
+
+  span {
+    color: $neautral-100;
+    font-size: 14px;
+  }
+}
+
+.itemBase:hover {
+  transform: translateX(8px);
+  transition: transform 130ms ease-out;
+}
+
+.secondLevelItem {
+  padding-left: 10px;
+
+  svg {
+    width: 12px;
+  }
+
+  span {
+    color: $neautral-100;
+    font-size: 11px;
+  }
+}

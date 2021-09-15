@@ -1,2 +1,1 @@
-# corti-assignment
-Test task from the Corti AI
+# Corti AI's test assignment

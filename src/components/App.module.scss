@@ -1,0 +1,16 @@
+@import '../stylesheets/vars';
+
+.container {
+  background: $neautral-200;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+}

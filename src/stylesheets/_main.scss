@@ -1,0 +1,71 @@
+@import './vars';
+
+* {
+  box-sizing: border-box;
+  font-family: $primary-font;
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li,
+a,
+button,
+textarea,
+input {
+  font-family: $primary-font;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus,
+input:active,
+button:active,
+button:focus {
+  outline: none;
+}

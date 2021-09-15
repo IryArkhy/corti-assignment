@@ -1,0 +1,31 @@
+@import '../../stylesheets/vars';
+
+.dashboard {
+  flex: 1;
+  padding: 1rem 2rem;
+}
+
+.emptyList {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  svg {
+    fill: $neautral-400;
+    height: auto;
+    margin: 30px;
+    width: 80px;
+  }
+
+  span {
+    color: $neautral-400;
+    font-size: 20px;
+    font-weight: 200;
+  }
+}
+
+.foldersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

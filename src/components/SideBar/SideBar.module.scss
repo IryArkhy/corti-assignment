@@ -1,0 +1,27 @@
+@import '../../stylesheets/vars';
+
+.sidebar {
+  background: $primary-300;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem 0.4rem;
+  width: 250px;
+
+  h3 {
+    color: $neautral-100;
+    letter-spacing: 0.2em;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+}
+
+.filesContainer {
+  width: 100%;
+}
+
+.sidebarLoaderContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
