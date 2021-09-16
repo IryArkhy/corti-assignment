@@ -29,7 +29,7 @@ API requests are mocked with [mocky.io](https://designer.mocky.io/).
 
 ## 👩🏼‍💻 App's state management
 
-There is no additional libraries for state management such as *redux*, *react-redux*, *redux-saga*, *redux-thunk*. It seemed unreasonable to add these libraries to development dependencies due to the small size of the application and little amount of requests. React methods and hooks were chosen to manage the state of the app - Context API. Also, the app uses reducer, actions and actions' types.
+There is no additional libraries for state management such as *redux*, *react-redux*, *redux-saga*, *redux-thunk*. It seemed unreasonable to add these libraries to dependencies due to the small size of the application and little amount of requests. React methods and hooks were chosen to manage the state of the app - Context API. Also, the app uses reducer, actions and actions' types.
 
 ## ⚖️ Design choice
 
