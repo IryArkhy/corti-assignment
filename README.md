@@ -2,7 +2,7 @@
 
 The **Folder Browser** is an expandable tree that lets you browse the file systems and other locations accessible from your computer.
 
- ➡️ Check it out: [Corti AI Directory Browser Task web page](https://61420c5849ae0b0007179625--pedantic-brattain-74d84c.netlify.app/)
+ ➡️ Check it out: [Corti AI Directory Browser Task web page](https://corti-directory-browser.netlify.app/)
 
 # 📚Stack
 
